@@ -5,7 +5,7 @@ metadata:
     app: gitlab-ce
   name: gitlab-ce
 spec:
-  host: gitlab.apps.cluster-1358.1358.example.opentlc.com
+  host: gitlab.apps.oshift-svc.convergelabs.us
   port:
     targetPort: 80-http
   tls:
