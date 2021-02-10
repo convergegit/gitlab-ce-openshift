@@ -25,7 +25,7 @@ spec:
       containers:
       - env:
         - name: GITLAB_OMNIBUS_CONFIG
-          value: external_url "https://gitlab.apps.cluster-1358.1358.example.opentlc.com/";
+          value: external_url "https://gitlab.apps.oshift-svc.convergelabs.us/";
             nginx['redirect_http_to_https'] = false; nginx['redirect_http_to_https_port']
             = 80; nginx['listen_port'] = 80; nginx['listen_https'] = false; registry_nginx['redirect_http_to_https']
             = false; mattermost_nginx['redirect_http_to_https'] = false; gitlab_rails['gitlab_https']=false;
